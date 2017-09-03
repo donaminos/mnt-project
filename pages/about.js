@@ -18,7 +18,9 @@ const About = (props) => (
                 {renderHTML(props.article.body)}
               </div>
             </div>
-            <div className="panel-footer">&nbsp;</div>
+            <div className="panel-footer">
+              <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Code source :</span> <a href='https://github.com/donaminos/mnt-project' target='_blank'>https://github.com/donaminos/mnt-project </a>
+            </div>
           </div>
         </article>
   </Layout>
